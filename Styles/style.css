@@ -16,10 +16,11 @@ body {
 
 .signin-container {
   background: white;
-  padding: 8rem 10rem;
+  padding: 6rem 8rem;
   border-radius: 20px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
   text-align: center;
+  font-size:2rem;
 }
 
 .signin-container input {
@@ -29,7 +30,6 @@ body {
   padding: 1.75rem;
   border: 1px solid #ccc;
   border-radius: 5px;
-  font-size:2rem;
 }
 
 .signin-container button {
@@ -39,8 +39,6 @@ body {
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  font-size:2rem;
-}
 }
 
 .loading-screen {
@@ -93,15 +91,13 @@ body {
   .signin-container {
   padding: 2rem 4rem;
   border-radius: 10px;
-    font-size:1rem;
-  }
+  font-size:1rem;
   }
  .signin-container input {
   margin: 1rem 0;
   padding: 0.75rem;
-   font-size:1rem;
- }
   }
+  
   .typing-effect {
   font-size: 1.5rem;
   }
