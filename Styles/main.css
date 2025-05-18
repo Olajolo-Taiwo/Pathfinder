@@ -3,7 +3,7 @@ body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background: #f0f2f5;
   overflow-x: hidden;
-}
+} 
 
 .header {
 width: 100%;
@@ -24,12 +24,6 @@ cursor: pointer;
 
 .logo {
 font-weight: bold;
-}
-
-.user-icon {
-width: 30px;
-height: 30px;
-border-radius: 50%;
 }
 
 .sidebar {
@@ -182,3 +176,19 @@ box-shadow: 0 4px 20px rgba(0,0,0,0.1);
     transform: rotate(360deg);
   }
 }
+
+  @media screen and (min-width: 1024px) {
+.header {
+height: 110px;
+padding: 0 5px 0 8px;
+font-size:3rem;
+  }
+.menu-icon {
+font-size: 34px;
+}
+    .accordion-btn {
+padding: 10px 20px;
+font-size: 20px;
+margin-bottom: 10px;
+    }
+  }
